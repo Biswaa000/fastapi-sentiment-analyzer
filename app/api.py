@@ -1,11 +1,13 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from textblob import TextBlob # type: ignore
+from textblob import TextBlob  # type: ignore
 
 router = APIRouter()
 
+
 class TextRequest(BaseModel):
     text: str
+
 
 @router.post("/analyze")
 def analyze_sentiment(request: TextRequest):
