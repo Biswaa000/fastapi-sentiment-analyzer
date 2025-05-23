@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+PyPDF2
+textblob
+black
+python-dotenv
+pydantic
+pytest
+jinja2
+pydantic-settings
+
+
+
+
+
