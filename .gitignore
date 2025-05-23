@@ -7,3 +7,8 @@ __pycache__/
 venv/
 .envrc
 .DS_Store
+
+.env
+.venv/
+.dockerignore
+*.db
